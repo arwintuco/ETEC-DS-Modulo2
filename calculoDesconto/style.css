@@ -1,14 +1,34 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+  margin: 0;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #4619135a;   
+}
+
+#principal {
+  background-color: #f0f0f0;
+  border: 2px solid #461913;
+  padding: 20px;
+  border-radius: 20px;
+  width: 600px;
+  height: 400px;
 }
 
 header{
     background-color: #461913; 
     padding: 10px;
     text-align: center;
-    color: #fff;
+    color: #faae71eb;
     font-size: 30px;
+    border-radius: 15px;
 }
 #form{
     flex-direction: column;
@@ -33,21 +53,35 @@ input, select{
 
 button{
     background-color: #461913;
-    color: #fff;
-    margin: 0px 70px;
+    color: #f9c295eb;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    margin: 0 auto;
+    display: block;
 }
 
 /* calculoDescontoAction */
 
 #action {
-    margin: 15px 70px;
+    margin: 15px 5px;
     padding: 10px;
     border-radius: 5px;
     font-size: 25px;
     font-weight: bold;
     background-color: #46191351;
+}
+
+footer {
+    background: #461913;
+    color: #f9c295eb;
+    text-align: center;
+    padding: 0.5%;
+    margin: 2% 4% 0%;
+    border-radius: 8px;
+}
+
+footer p {
+    font-weight: bold;
 }
